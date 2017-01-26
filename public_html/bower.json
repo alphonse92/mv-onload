@@ -1,0 +1,17 @@
+{
+  "name": "mv-onload",
+  "description": "Angular plugin for easy call callback where dom is compiled",
+  "main": "dist/mv-onload.js",
+  "authors": [
+    "Eliecer Alejandro Molina Vergel"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "onload",
+    "event",
+    "dom compiled",
+    "directive"
+  ],
+  "homepage": "https://github.com/alphonse92/mv.onload"
+}

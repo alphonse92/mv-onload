@@ -1,0 +1,19 @@
+{
+    "name": "mv-onload",
+    "private": false,
+    "version": "1.0.0",
+    "keywords": [
+        "angular",
+        "onload",
+        "event",
+        "dom compiled",
+        "directive"
+    ],
+    "author": "Eliecer Alejandro Molina Vergel",
+    "license": "MIT",
+    "contributors": [
+    ],
+    "dependencies": {
+        "angular": "^1.4.5"
+    }
+}
