@@ -1,6 +1,17 @@
 # mv-onload
 Angular plugin for easy call callback where dom is compiled
 
+##Installation:
+
+###NPM:
+```
+  npm install mv-onload
+```
+###Bower
+```
+  bower install mv-onload
+```
+
 ##Usage:
 
 ```
