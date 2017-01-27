@@ -40,6 +40,24 @@ Angular plugin for easy call callback where dom is compiled
     </body>
 </html>
 ```
+
+####options
+use "compile" attribute when the innerHTML use angularDirective
+
+```html
+<div mvonload="callback">
+  No angular attibute or expresion, so compile isn't necessary.
+</div>
+
+<div mvonload="callback" compile>
+  <ul>
+    <li ng-repeat="i in [1,2,3,4,5]">
+      Compile is nesessary x{{i}}
+    </li>
+  </ul>
+</div>
+```
+
 ###javascript:
 ```javascript
 angular.module('app', ['com.alphonsegs.mvonload'])
