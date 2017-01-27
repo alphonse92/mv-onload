@@ -14,9 +14,14 @@
     }
     function pre(scope, element, attrs, controller, transcludeFn, $compile) {
         
-        console.log("pre")
-        compile($compile, element, attrs)(scope)
-        scope._mvoloadstatus=true
+        console.log("pre",attrs)
+        
+        if(typeof attrs.compile != 'undefined')
+        {
+            compile($compile, element, attrs)(scope)
+        }
+        
+        scope._mvoloadstatus=true;
     }
     function post(scope, element, attrs, controller, transcludeFn) {
         console.log("pos")
